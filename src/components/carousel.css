@@ -1,0 +1,156 @@
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Jost", sans-serif;
+    background-color: rgba(237, 246, 249, 0.3);
+  }
+  
+  html {
+    font-size: 62.5%;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  li {
+    list-style: none;
+  }
+
+  .swiper {
+    margin-top: 5%;
+    width: 100%;
+    height:65rem;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+  }
+  
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+  
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+    margin: 145rem;
+  }
+  
+  
+
+   /* responsive css style  */
+   @media (max-width: 1080px) {
+    .swiper {
+        width: 100%;
+        height: 65rem;
+      }
+      
+      .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+      
+        /* Center slide text vertically */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      
+      .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+      
+}    
+  
+  /* responsive css style  */
+  @media (max-width: 998px) {
+    .swiper {
+        width: 100%;
+        height: 53rem;
+      }
+      
+      .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+      
+        /* Center slide text vertically */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      
+      .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+       
+      }
+
+  }
+  
+  @media (max-width: 798px) {
+    .swiper {
+        width: 100%;
+        height:41rem;
+      }
+      
+      .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+      
+        /* Center slide text vertically */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      
+      .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+       
+      }
+      
+  }
+
+  @media (max-width: 520px) {
+    .swiper {
+        width: 100%;
+        height:29rem;
+      }
+      
+      .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+      
+        /* Center slide text vertically */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      
+      .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+       
+      }
+      
+  
+  }
