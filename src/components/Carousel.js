@@ -36,54 +36,53 @@ export default function Carousel() {
         className="mySwiper"
       >
            <SwiperSlide> 
-               <div className="image-relative">
+              <div className="grid-model">
                     <div className="title-content">
                       <p>
                         We offer web development, design, maintenance, and optimization services. Our experienced team creates beautiful, user-friendly websites tailored to your needs.
                         </p>
-                     </div> 
-                     <img src={IMG1} loading='lazy' alt=""/>  
-    
+                     </div>    
+                        <div className="image-relative">
+                           <img src={IMG1} loading='lazy' alt=""/>
+                        </div>
                </div>
         </SwiperSlide>
-      
-        <SwiperSlide>
-               <div className="image-relative">
-                      <div className="title-content">
-                      <p>
-                        Our website offers app development services. We create beautiful and functional apps tailored to your needs. Choose us for your app development project.
-                      </p>
-                     </div>  
-                     <img src={IMG2} loading='lazy' alt=""/>     
-                     
-               </div>
-        </SwiperSlide>
-
-        <SwiperSlide>
-               <div className="image-relative">
+        <SwiperSlide> 
+              <div className="grid-model">
                     <div className="title-content">
                       <p>
-                        We help businesses and individuals establish a strong social media presence through effective marketing and strategic planning. Our experienced team is dedicated to creating customized social media plans that deliver results. We offer a range of services including social media management, advertising, and analytics. Choose us as your reliable partner for your social media marketing and strategy needs.
+                      Our website offers app development services. We create beautiful and functional apps tailored to your needs. Choose us for your app development project.
                         </p>
-                     </div>  
-                     <img src={IMG3} loading='lazy' alt=""/>  
-                          
+                     </div>    
+                        <div className="image-relative">
+                           <img src={IMG2} loading='lazy' alt=""/>
+                        </div>
                </div>
         </SwiperSlide>
-
-        <SwiperSlide>
-               <div className="image-relative">
-                     <div className="title-content">
+        <SwiperSlide> 
+              <div className="grid-model">
+                    <div className="title-content">
+                      <p>
+                      We help businesses and individuals establish a strong social media presence through effective marketing and strategic planning. Our experienced team is dedicated to creating customized social media plans that deliver results. We offer a range of services including social media management, advertising, and analytics. Choose us as your reliable partner for your social media marketing and strategy needs.
+                        </p>
+                     </div>    
+                        <div className="image-relative">
+                           <img src={IMG3} loading='lazy' alt=""/>
+                        </div>
+               </div>
+        </SwiperSlide>
+        <SwiperSlide> 
+              <div className="grid-model">
+                    <div className="title-content">
                       <p>
                       Market Mate offer a comprehensive range of services to help businesses establish and maintain their online presence and reach their target audience through various digital marketing channels.
                         </p>
-                     </div>  
-                     <img src={IMG4} loading='lazy' alt=""/>      
-                      
+                     </div>    
+                        <div className="image-relative">
+                           <img src={IMG4} loading='lazy' alt=""/>
+                        </div>
                </div>
         </SwiperSlide>
-
-
       </Swiper>
     </>
   );
