@@ -23,10 +23,10 @@ export default function Carousel() {
       <Swiper
         slidesPerView={1}
         spaceBetween={50}
-        // autoplay={{
-        //     delay: 2500,
-        //     disableOnInteraction: false,
-        //   }}
+        autoplay={{
+            delay: 2500,
+            disableOnInteraction: false,
+          }}
         loop={true}
         pagination={{
           clickable: true,
